@@ -1,0 +1,23 @@
+[diff]
+	external = /Users/erose/Applications/bin/opendiff-git
+[user]
+	name = Erik Rose
+	email = erik@mozilla.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+    excludesfile = ~/.gitignore
+    editor = /Users/erose/Applications/bin/bbwait
+[alias]
+    ci = commit
+    co = checkout
+    br = branch
+    st = status
+    uc = reset HEAD~1
+    unci = reset HEAD~1
+[help]
+	autocorrect = 0
+[merge]
+	tool = opendiff
